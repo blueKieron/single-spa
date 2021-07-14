@@ -7,7 +7,7 @@ Vue.config.productionTip = false
 
 async function loadScript(url){
   return new Promise((resolve, reject) => {
-    let script =document.createElement('script')
+    let script = document.createElement('script')
     script.src = url
     script.onload = resolve
     script.onerror = reject
