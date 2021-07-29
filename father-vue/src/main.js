@@ -29,6 +29,7 @@ registerApplication(
   location => location.pathname.startsWith('/vue') // 用户切换到 /vue 的路径下，需要加载刚才定义的子应用
 )
 start()
+
 new Vue({
   router,
   render: h => h(App)
